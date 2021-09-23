@@ -7,6 +7,7 @@
 
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
+  default = "no-prefix"
 }
 
 variable "location" {
@@ -26,7 +27,7 @@ variable "subnet_prefix" {
 
 variable "vm_size" {
   description = "Specifies the size of the virtual machine."
-  default     = "Standard_B1s"
+  default     = "Standard_A1"
 }
 
 variable "image_publisher" {
